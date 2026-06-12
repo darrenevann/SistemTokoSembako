@@ -1,0 +1,1236 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.container {
+    background-image:url("images/Background1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.Menu-Kiri a {
+  color: inherit;      
+  text-decoration: none;
+}
+
+
+body .container .Menu {
+    padding-left: 150px;
+    padding-top: 20px;
+    display: flex;
+   
+}
+
+
+
+body .container .Menu-Kiri .Pasific  {
+    color: white;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: 800;
+}
+
+body .container .Menu-Kiri .Pasific a h2  {
+    text-decoration: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 0.40; 
+    
+}
+
+.Menu-Kiri span{
+    color: #F15D30;
+    font-size: 10px;
+}
+
+.Travel {
+    text-decoration: none;
+}
+
+.Menu-Kanan {
+    text-align: right;
+    margin-left: 750px;
+    display: flex;
+   
+    
+}
+
+
+.Menu-Kanan a {
+    
+    background-color: inherit;
+    border: inherit;
+    padding-right: 20px;
+   
+}
+
+.Menu-Kanan p:hover {
+    color: #F15D30;
+    
+}
+
+.Menu-Kanan p {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: text 1s ease-in-out;
+    font-weight: bold;
+}
+
+
+.Article-kiri .article1 h2{
+    color: #F15D30;;
+    font-family: 'Arizonia',cursive;
+}
+.Article-kiri .article1 h3{
+    color: white;
+    font-weight: 800;
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    line-height: 0.40; 
+}
+.Article-kiri .article1 p{
+    color: white;
+    font-family: Arial,sans-serif;
+    line-height: 0.40; 
+    
+   
+}
+
+.Article-kiri {
+    display: flex;
+}
+
+.container5 .PlayKanan a{
+    position: absolute;
+    margin-bottom: 300px;
+}
+
+.Article-kiri .article1 {
+    margin-left: 150px;
+    margin-top: 70px;
+    display: flex;
+}
+.PlayKanan {
+    text-align: right;
+    margin-top: 260px;
+    margin-left: 620px;
+}
+
+.PlayKanan a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+  
+}
+
+
+.PlayKanan a::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  border-left: 25px solid #F15D30;  
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  
+}
+
+.PlayKanan a:hover {
+    transform: scale(1.05);
+}
+
+
+.container2 .TabelSearch {
+    display: flex;
+    
+}
+
+.Search {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 800;
+    padding-bottom: 22px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 205px;
+}
+.Hotel {
+    position: absolute;
+   
+    margin-left: 295px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #F15D30;
+    font-size: 14px;
+    font-weight: 800;
+    padding-bottom: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 203px;
+    padding-bottom: 13px;
+}
+.Search a {
+    color: gray;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Arial,sans-serif;
+}
+
+
+
+.Hotel a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Arial,sans-serif;
+}
+
+
+.OpsiMenu {
+    display: flex;
+    margin-top: 170px;
+    background-color: inherit;
+    width: 700px;
+    margin-left: 70px;
+    padding: 80px;
+    
+    
+}
+
+.text-orange {
+    color : #F15D30;
+    font-family: Arial,sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+  
+.TABEL5 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Arial,sans-serif;
+    
+}
+
+.OpsiMenu .TABEL1 {
+
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid rgb(249, 241, 241);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+}
+
+.OpsiMenu .TABEL2 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid rgb(249, 241, 241);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.OpsiMenu .TABEL3 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid rgb(249, 241, 241);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.OpsiMenu .TABEL4 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid rgb(249, 241, 241);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.OpsiMenu .TABEL5 {
+    background-color: #F15D30;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline-block;
+    box-shadow: inset;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.inputText {
+    border: none;
+}
+
+.searchlogo {
+    width: 40px;
+}
+
+.search-logo {
+    display: flex;
+}
+
+.Check-In {
+    display: flex;
+}
+
+.CheckInGambar {
+    width: 40px;
+}
+
+.Check-Out {
+    display: flex;
+}
+
+.CheckOutGambar {
+    width: 40px;
+}
+
+.Harga {
+    display: flex;
+}
+
+.PanahBawahGambar {
+    width: 30px;
+}
+
+
+
+.ListHarga {
+    width: 150px;
+    height: 30px;
+    margin-left: 7px;
+    border-color: rgb(186, 176, 176);
+    border-radius: 3px;
+}
+
+
+
+.Gambarb1 {
+    width: 200px;
+    height: 250px;
+}
+.Gambarb2 {
+    width: 200px;
+    height: 250px;
+    
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-gap: 25px;
+}
+ 
+.gambar {
+  position: relative;
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 8px;
+  
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.gambar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.gambar p {
+  font-size: 14px;
+}
+
+.icon-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #F15D30;
+  padding: 15px;
+  border-radius: 0 0 10px 0;
+}
+
+
+
+.icon-box img {
+  width: 40px;
+  height: 30px;
+  
+}
+
+.blue {
+    background: url('images/surfing.webp');
+    background-position: center;
+    background-size: cover;
+
+}
+.teal {
+    background: url('images/Hutan.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.green {
+    background: url('https://images.unsplash.com/photo-1473625247510-8ceb1760943f');
+    background-position: center;
+    background-size: cover;
+
+}
+.red {
+  background: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828') center/cover;
+}
+
+
+.container2 {
+    display: flex;
+}
+/* Right Section */
+.right-section {
+   
+    margin-top: 40px;
+    max-width: 500px;
+    margin-right: 300px;
+    line-height: 1.5; 
+}
+
+.welcome {
+  font-family: 'Arizonia', cursive;
+  color: #F15D30;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.right-section h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.right-section .desc {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.btn {
+  background: #F15D30;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #c64a23;
+}
+
+
+
+
+/* === CONTAINER 3 === */
+.container3 {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Judul bagian destinasi */
+.bagian-destinasi .judul-bagian {
+  margin-bottom: 40px;
+}
+
+.bagian-destinasi .teks-kecil {
+  color: #f15d30;
+  font-family: 'Arizonia', cursive;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.bagian-destinasi .judul-utama {
+  font-size: 34px;
+  font-weight: 800;
+  color: #222;
+}
+
+
+.pembungkus-scroll {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 50%;
+  padding: 20px 0;
+  margin-left: 25%;
+}
+
+.pembungkus-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+.pembungkus-scroll::-webkit-scrollbar-thumb {
+  background: #f15d30;
+  border-radius: 10px;
+}
+
+
+.daftar-destinasi {
+  display: inline-flex;
+  gap: 25px;
+  padding: 0 40px;
+}
+
+
+.kartu-destinasi {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 12px;
+  
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.kartu-destinasi:hover {
+  transform: translateY(-5px);
+}
+
+.kartu-destinasi img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.label-negara {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #f15d30;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.label-tur {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #f15d30;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+
+
+/* ==============CONTAINER 4=========== */
+
+    .bagian-destinasi {
+      text-align: center;
+      padding: 60px 0;
+    }
+
+    .bagian-destinasi h3 {
+      color: #f15d30;
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+
+    .bagian-destinasi h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .daftar-destinasi4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .kartu-destinasi4 {
+      background: #fff;
+      border-radius: 12px;
+      
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .kartu-destinasi4:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .gambar-destinasi {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .gambar-destinasi img {
+      width: 129%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gambar-destinasi:hover img {
+      transform: scale(1.05);
+    }
+
+    .harga4 {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #f15d30;
+      color: #fff;
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .info-destinasi {
+      text-align: left;
+      padding: 18px;
+    }
+
+    .info-destinasi small {
+      color: #f15d30;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    .info-destinasi h4 {
+      margin: 5px 0 10px;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    .info-destinasi h4:hover {
+      color: #f15d30;
+    }
+
+    .info-destinasi p {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .ikon-destinasi {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .ikon-destinasi span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    button, a {
+      border: none;
+      background: none;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    .container4 .teks-kecil {
+        color: #f15d30;
+        font-family: 'Arizonia', cursive;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .container4 .judul-utama {
+        font-size: 34px;
+        font-weight: 800;
+        color: #222;
+    }
+
+
+    /* container 5 */
+
+    .container5 {
+
+    margin-top: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 60px 0;
+}
+
+.video-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  width: 90%;
+  
+  
+}
+
+.video-background {
+
+    margin-top: 580px;
+  position: relative;
+  
+}
+.video-background img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  height: 400px;
+}
+
+
+.video-text {
+  flex: 1;
+  text-align: left;
+  margin-top: 630px;
+}
+.video-text h5 {
+  color: #ff5722;
+  font-size: 18px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.video-text h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.video-text p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.btn-book {
+  background: #ff5722;
+  color: #ffffff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.btn-book:hover {
+  background: #e64a19;
+}
+
+/* Popup video */
+.video-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.video-wrapper {
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: -40px;
+  right: -10px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.container5 {
+    background-image:url("images/raja-ampat-3.webp");
+    background-size: cover;
+    height: 20vh;
+}
+
+.container5 .PlayKananTengah {
+    margin-bottom: 390px;
+    margin-right: 590px;
+    float: left;
+
+}
+
+.container5 .PlayKananTengah a {
+    margin-top: 390px;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+}
+
+
+.PlayKananTengah a::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  border-left: 25px solid #F15D30;  
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  
+}
+.PlayKananTengah:hover {
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+
+/* container6 */
+
+.container6 {
+    margin-top: 500px;
+    height: 600px;
+    background: url('images/raja-ampat-3.webp') center/cover no-repeat;
+}
+
+
+
+.lapisan-bg {
+  background: rgba(0, 128, 128, 0.5);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.judul-kecil {
+  font-family: 'Arizonia', cursive;
+  color: #ff5f40;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.judul-besar {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.pembungkus-ulasan {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: center;
+    padding: 10px 20px;
+    background: fixed;
+    width: 50%;
+    margin-left: 25%;
+    height: 400px;
+ 
+}
+
+
+.kotak-ulasan {
+  
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height:280px;
+  transition: transform 0.3s ease;
+}
+.kotak-ulasan:hover {
+  transform: translateY(-10px);
+}
+
+.bintang {
+  color: #ff5f40;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.judul-utama6 {
+      font-size: 34px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+
+
+/* ========================== */
+
+.bagian-penawaran {
+  background: linear-gradient(rgba(39, 85, 141, 0.5), rgba(0, 0, 0, 0.5)),
+              url('images/pantai.jpeg') center/cover no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.isi-penawaran {
+  max-width: 700px;
+}
+
+.judul-penawaran {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.teks-penawaran {
+  font-size: 15px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.tombol-penawaran {
+  background-color: #f15d30;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.tombol-penawaran:hover {
+  background-color: #d94f27;
+}
+
+
+.container7 {
+    margin-top: 30px;
+}
+
+
+/* ===== FOOTER ===== */
+
+/* ===== FOOTER ===== */
+.bagian-footer {
+  background-color: #f9f9f9;
+  padding: 60px 0 30px;
+  font-family: "Poppins", sans-serif;
+  color: #555;
+  position: relative;
+  background-image: url('gedung.png'); 
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.kontainer-footer {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+.kolom-footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.kolom-footer p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.kolom-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kolom-footer ul li {
+  margin-bottom: 10px;
+}
+
+.kolom-footer ul li a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.kolom-footer ul li a:hover {
+  color: #f15d30;
+}
+
+.ikon-sosial a {
+  display: inline-block;
+  background: #f15d30;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  
+}
+
+.ikon-sosial a:hover {
+  background: #d94f27;
+}
+
+.kontak-footer li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.kontak-footer i {
+  color: #f15d30;
+}
+
+.hak-cipta {
+  text-align: left;
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+.icongambarfooter {
+  margin-top: 5px;
+}
+
+
+
+
+/* ================================ */
+
+.Bagian-bawahUAS {
+  display: flex;
+  gap: 40px;
+}
+
+.PlayKananUAS a{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f15d30;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+
+}
+
+.PlayKananUAS a::before {
+  content: "";
+  position: absolute;
+  left: 32%;
+  border-left: 20px solid #ffffff;  
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  display: flex;
+  
+}
+
+.Bagian-Tombol {
+  display: flex;
+  gap: 10px;
+}
+
+.ArtikelUAS {
+  width: 40%;
+  height: 40%;
+  margin-left: 250px;
+  position: absolute;
+}
+
+.Bagian-KananUAS {
+  margin-left: 50%;
+  width: 440px;
+}
+
+.containerUAS .Bagian-KananUAS .harga4 {
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.Bagian-Tombol1 {
+  display: flex;
+  gap: 30px;
+}
+
+.JuniorKanan {
+  display: flex;
+  gap: 190px;
+}
+
+.Bintang {
+  color: gold;
+}
+
+
+.btn1 {
+  background: #000000;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn1:hover {
+  background: #000000;
+}
+
+
+.PLay-Demo {
+  color: gray;
+}
+
+
+.TeksOrangeUAS {
+  color: #f15d30;
+}
+
+
+
+.BagianHakCipta {
+  display: flex;
+  gap: 900px;
+  background-color: #000;
+}
+.hak-cipta a:hover {
+  color: #c64a23;
+}
+
+.footer-kanan {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer-kanan a:hover  {
+  color: #c64a23;
+}
+
+
+
+    .ikon-destinasiUAS {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 22px;
+      font-size: 14px;
+      color: #777;
+      margin-left: 5px;
+    }
+
+    .ikon-destinasiUAS span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .teks-kecilUAS {
+      margin-left: 5px;
+      line-height: 0.50;
+    }
+
+    .TeksBiasaUAS {
+      line-height: 0.10;
+    }

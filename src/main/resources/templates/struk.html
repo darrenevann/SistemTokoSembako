@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <title>Struk Pembelian</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <div class="card">
+
+        <div class="card-body">
+
+            <h3 class="text-center">
+
+                TOKO SEMBAKO
+
+            </h3>
+
+            <hr>
+
+            <p>
+
+                No Transaksi :
+
+                <span th:text="${transaksi.idTransaksi}">
+                </span>
+
+            </p>
+
+            <p>
+
+                Tanggal :
+
+                <span th:text="${transaksi.tanggalTransaksi}">
+                </span>
+
+            </p>
+
+            <p>
+
+                Pelanggan :
+
+                <span th:text="${transaksi.pelanggan.namaPelanggan}">
+                </span>
+
+            </p>
+
+            <hr>
+
+            <table class="table">
+
+                <tr>
+
+                    <th>Barang</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+
+                </tr>
+
+                <tr>
+
+                    <td th:text="${transaksi.barang.namaBarang}">
+                    </td>
+
+                    <td th:text="${transaksi.kuantitas}">
+                    </td>
+
+                    <td>
+
+                        Rp.
+
+                        <span th:text="${transaksi.totalHarga}">
+                        </span>
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+            <hr>
+
+            <h4>
+
+                Metode Bayar :
+
+                <span th:text="${transaksi.metodePembayaran}">
+                </span>
+
+            </h4>
+
+            <h3>
+
+                Total :
+
+                Rp.
+
+                <span th:text="${transaksi.totalHarga}">
+                </span>
+
+            </h3>
+
+            <br>
+
+            <button onclick="window.print()"
+                    class="btn btn-success">
+
+                Print Struk
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
