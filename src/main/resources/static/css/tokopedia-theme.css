@@ -1,0 +1,118 @@
+:root {
+    --toko-green: #00AA5B;
+    --toko-green-hover: #008849;
+    --toko-bg: #F3F4F5;
+    --toko-text: #31353B;
+    --toko-text-muted: #6D7588;
+    --toko-border: #E5E7E9;
+    --toko-shadow: 0 1px 6px 0 rgba(49,53,59,0.12);
+}
+
+body {
+    background-color: var(--toko-bg);
+    color: var(--toko-text);
+    font-family: 'Nunito Sans', 'Open Sans', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-toko {
+    background-color: #FFFFFF;
+    box-shadow: var(--toko-shadow);
+    border-bottom: 1px solid var(--toko-border);
+    padding: 12px 24px;
+}
+
+.navbar-toko .navbar-brand {
+    color: var(--toko-green);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.navbar-toko .nav-link {
+    color: var(--toko-text-muted);
+    font-weight: 600;
+    margin: 0 8px;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.navbar-toko .nav-link:hover, .navbar-toko .nav-link.active {
+    color: var(--toko-green);
+    background-color: rgba(0, 170, 91, 0.08);
+}
+
+/* Card Styling */
+.card-toko {
+    background: #FFFFFF;
+    border: 1px solid var(--toko-border);
+    border-radius: 12px;
+    box-shadow: var(--toko-shadow);
+    margin-bottom: 24px;
+}
+
+.card-header-toko {
+    background: #FFFFFF;
+    border-bottom: 1px solid var(--toko-border);
+    padding: 16px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Button Styling */
+.btn-toko {
+    background-color: var(--toko-green);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 8px 16px;
+    transition: background-color 0.2s;
+}
+
+.btn-toko:hover {
+    background-color: var(--toko-green-hover);
+    color: #FFFFFF;
+}
+
+.btn-toko-outline {
+    background-color: #FFFFFF;
+    color: var(--toko-green);
+    border: 1px solid var(--toko-green);
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 8px 16px;
+}
+
+.btn-toko-outline:hover {
+    background-color: rgba(0, 170, 91, 0.08);
+    color: var(--toko-green);
+}
+
+/* Form & Input Styling */
+.form-control-toko {
+    border: 1px solid var(--toko-border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+.form-control-toko:focus {
+    border-color: var(--toko-green);
+    box-shadow: 0 0 0 0.2rem rgba(0, 170, 91, 0.25);
+}
+
+/* Table Styling */
+.table-toko th {
+    background-color: #F8F9FA;
+    color: var(--toko-text-muted);
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 2px solid var(--toko-border);
+}
+
+.table-toko td {
+    vertical-align: middle;
+    font-size: 14px;
+    border-bottom: 1px solid var(--toko-border);
+}
